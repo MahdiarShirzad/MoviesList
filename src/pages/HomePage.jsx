@@ -6,9 +6,9 @@ export default function HomePage() {
   return (
     <div className={styles.container}>
       <h1>Welcome to Movies List App 🎬</h1>
-      <p>Discover all movies</p>
+      <p>Discover & explor all movies you want</p>
       <Link to="/app">
-        <div>Go to App</div>
+        <button>Go to App</button>
       </Link>
     </div>
   );
