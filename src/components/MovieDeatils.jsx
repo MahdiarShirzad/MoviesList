@@ -60,6 +60,24 @@ export default function MovieDetails({
 
     onAddWatched(newWatchedMovie);
     onCloseMovie();
+
+    // const mainUrl = "http://localhost:8000/movies";
+    // function handleAddWatched(movie) {
+    //   const stringify = JSON.stringify(movie);
+    //   console.log(stringify);
+    //   fetch(mainUrl, {
+    //     method: "POST",
+    //     headers: {
+    //       "Content-Type": "application/json",
+    //     },
+    //     body: stringify,
+    //   })
+    //     .then((response) => response.json())
+    //     .then((data) => console.log("Object created:", data))
+    //     .catch((error) => console.error("Error:", error));
+    // }
+
+    // handleAddWatched(movie);
   }
 
   useEffect(
